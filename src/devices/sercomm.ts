@@ -61,6 +61,14 @@ export const definitions: DefinitionWithExtend[] = [
         },
     },
     {
+        zigbeeModel: ['SZ-ESW02N-CZ3'],
+        model: 'SZ-ESW02N-CZ3',
+        vendor: 'Sercomm Corp.',
+        description: 'Automatically generated definition',
+        extend: [m.onOff({"powerOnBehavior":false}), m.electricityMeter({"cluster":"metering"})],
+        },
+    },
+    {
         zigbeeModel: ["XHS2-SE"],
         model: "XHS2-SE",
         vendor: "Sercomm",
